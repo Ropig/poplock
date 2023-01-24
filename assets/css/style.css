@@ -1,0 +1,53 @@
+html {
+    background: url('/assets/img/space.png') no-repeat center center fixed; 
+    background-size: cover;
+    max-width: 100%;
+    background-color: #111;
+}
+
+.mainhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+}
+
+.links1{
+background-image: ;
+outline-color: rgb(255, 255, 255);
+color: white;
+text-decoration: none;
+border-radius: 30px;
+}
+
+.links2 {
+	box-shadow:inset 0px 0px 0px 0px #203d39;
+	background-color:rgba(red, #d6d6d6, #828282, alpha);
+	border-radius:15px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 65px;
+	text-decoration:none;
+  text-align:center;
+  opacity: 98%;
+  width: 100 ;
+  table-layout: fixed;
+}
+.links2:hover {
+	opacity: 65%;
+}
+.links2:active {
+	position:relative;
+	top:1px;
+}
+
+.games {
+  border-radius: 30%;
+}
